@@ -1,0 +1,16 @@
+[package]
+name = "syncd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gpgme = "0.11.0"
+rand = "0.8.5"
+serde = "1.0.171"
+serde_derive = "1.0.171"
+sha2 = "0.10.7"
+tokio = { version = "1.29.1", features = ["full"] }
+tokio-native-tls = "0.3.1"
+toml = "0.7.6"

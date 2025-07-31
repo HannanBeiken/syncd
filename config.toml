@@ -1,0 +1,5 @@
+auth_key_id = "MyKey"
+authorized_keys = ["MyKey", "testkey"]
+listen_address = "127.0.0.1:4444"
+peer_list = ["127.0.0.1:4444"]
+tls_identity_path = "tls/tls.pfx"
